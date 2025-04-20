@@ -6,7 +6,7 @@ var items = [];
 $(function(){
 
     var param = {
-        url : 'loadData.php',
+        url : 'data.json',
         dataType : 'json'
     }
     $.ajax(param).done(function(ary){
