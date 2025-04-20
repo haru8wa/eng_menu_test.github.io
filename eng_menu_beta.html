@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>first_beta</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="first_beta.js"></script>
+        <link  rel="stylesheet" href="first_beta.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id = "select">
+            <h1 id="foodTitle">Please Select</h1> 
+            <h2 id="total">Total : 0 yen</h2>
+            <p>Please select
+            <input type="radio" name="food" value="OKONOMIYAKI" onclick="getSelectedFood(this)">OKONOMIYAKI
+            <input type="radio" name="food" value="YAKISOBA" onclick="getSelectedFood(this)">YAKISOBA</p>
+            <h2 id="Items">Items</h2>
+            <h2 id="items"></h2>
+            <div id="menu">
+
+                
+            </div>
+            
+            <div class="cart">
+                <button type="button" id="toCart" onclick="addCart()">Into Cart</button>
+                <button type="button" id="cartButton" onclick="writeResult()"><img src="./picture/shopping001.png" alt="Cart_Button"></button>
+            </div>
+        </div>
+        <div id = "result">
+            
+        </div>
+        
+    </body>
+</html>
