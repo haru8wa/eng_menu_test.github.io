@@ -1,0 +1,14 @@
+[
+  ["Pork", 330, "./picture/animal_pig_buta.png"],
+  ["Cheese", 200, "./picture/food_cheese_emmental.png"],
+  ["Beef", 330, "./picture/wagyu_akagewasyu.png"],
+  ["Squid", 150, "./picture/fish_sakana_yariika_syokuwan.png"],
+  ["Shrimp", 150, "./picture/food_cut_seafood_ebi.png"],
+  ["Mochi", 110, "./picture/mochi_shikaku_yaki.png"],
+  ["Tempura", 150, "./picture/sweets_biscuit_tenpura.png"],
+  ["Katsu", 200, "./picture/food_misokatsu.png"],
+  ["Tuna", 330, "./picture/tuna_can.png"],
+  ["Kimuchi", 150, "./picture/food_kimuchi.png"],
+  ["Octopus", 150, "./picture/fish_tako.png"],
+  ["Green Onion", 50, "./picture/vegetable_negi.png"]
+]
