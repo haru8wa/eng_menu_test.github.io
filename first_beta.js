@@ -104,10 +104,16 @@ function getSelectedFood(selectRadio){
         if(selectRadio.value == "OKONOMIYAKI"){
             $("#foodTitle").text("You make original OKONOMIYAKI");
             OkoBool = true;
+            total = 0;
         }
         else if(selectRadio.value == "YAKISOBA"){
             $("#foodTitle").text("You make original YAKISOBA");
             OkoBool = false;
+            total = 0;
         }
+        items = [];
+        total = 0;
+        $("#total").html("Total : " + total + "yen");
+        $("#items").html(items.join(','));
     }
 }
