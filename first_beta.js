@@ -6,7 +6,7 @@ var items = [];
 $(function(){
 
     var param = {
-        url : 'data.json',
+        url : 'loadData.php',
         dataType : 'json'
     }
     $.ajax(param).done(function(ary){
@@ -47,12 +47,25 @@ function removeItem(itemName,val)
 }
 
 function addCart(){
-    cart.push(items.slice());
+    let foodData = {
+        items: items.slice(),
+        value: total
+    };
+    items = [];
+    total = 0;
+    $("#total").html("Total : " + total + "yen");
+    $("#items").html(foodData.items.join(','));
+    cart.push(foodData);
+    let cartJSON = JSON.stringify(foodData);
+
+    console.log("カートに追加されたアイテム：", foodData.items);
+    console.log("合計金額：", items.join(',') + " yen");
+    /*cart.push(items.slice());
     items = [];
     cart_value.push(total);
     total = 0;
     $("#total").html("Total : " + total + "yen");
-    $("#items").html(items.join(','));
+    $("#items").html(items.join(','));*/
 }
 
 function writeResult(){
@@ -61,21 +74,22 @@ function writeResult(){
         alert('Cart is empty');
         return;
     }
-    $("#select").hide();
-    for(let  i = 0; i < cart_value.length; i++)
-        resultTotal += cart_value[i];
+    let cartJSON = JSON.stringify(cart);
+    localStorage.setItem('cartData',cartJSON);
+    console.log("カートに追加されたアイテム：", cartJSON);
+    /*
+    
+    for(let  i = 0; i < cart.length; i++)
+        resultTotal += cart[i].value;
     $("#result").html(
         '<h1 id="title">Total :' +  resultTotal + '</h1><br>' +
          '<h2 id="please">Please call clerk</h2><br>' +
         '<button type="button" id="back" onclick="Back()">Back Page</button>'
     );
     cart.forEach(function(value){
-            if(value.length > 5){
-
-            }
-            else
-                $("#result").append('<div id="okonomiyaki">' + value.join(',') + '</div>');
+                $("#result").append('<div id="okonomiyaki">' + value.items.join(',') + '</div>');
         });
+    */
 }
 
 function getSelectedFood(selectRadio){
