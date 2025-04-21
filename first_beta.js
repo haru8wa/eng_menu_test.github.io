@@ -2,7 +2,7 @@ let total= 0,resultTotal=0;
 let cart_value = [];
 var cart = [];
 var items = [];
-
+var OkoBool = Boolean("true");
 $(function(){
 
     var param = {
@@ -26,7 +26,12 @@ function plus(name,val){
             return;
         }
     if(total == 0)
-        total += 570;
+        if(OkoBool){
+            total += 570;
+        }
+        else{
+            total += 530;
+        }
     total += parseInt(val) ;
     items.push(name);
     $("#total").html("Total : " + total + "yen");
@@ -96,9 +101,13 @@ function getSelectedFood(selectRadio){
     
     if(selectRadio)
     {
-        if(selectRadio.value == "OKONOMIYAKI")
+        if(selectRadio.value == "OKONOMIYAKI"){
             $("#foodTitle").text("You make original OKONOMIYAKI");
-        else if(selectRadio.value == "YAKISOBA")
+            OkoBool = true;
+        }
+        else if(selectRadio.value == "YAKISOBA"){
             $("#foodTitle").text("You make original YAKISOBA");
+            OkoBool = false;
+        }
     }
 }
