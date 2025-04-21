@@ -54,12 +54,12 @@ function addCart(){
     items = [];
     total = 0;
     $("#total").html("Total : " + total + "yen");
-    $("#items").html(foodData.items.join(','));
+    $("#items").html(items.join(','));
     cart.push(foodData);
     let cartJSON = JSON.stringify(foodData);
 
     console.log("カートに追加されたアイテム：", foodData.items);
-    console.log("合計金額：", items.join(',') + " yen");
+    console.log("合計金額：", foodData.items.join(',') + " yen");
     /*cart.push(items.slice());
     items = [];
     cart_value.push(total);
