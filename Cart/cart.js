@@ -1,5 +1,6 @@
 let cart = [];
 $(function(){
+        alert('cart.js');
         let saveData = localStorage.getItem('cartData');
         if(saveData)
             cart = JSON.parse(saveData);
