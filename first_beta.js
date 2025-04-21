@@ -59,7 +59,7 @@ function addCart(){
     let cartJSON = JSON.stringify(foodData);
 
     console.log("カートに追加されたアイテム：", foodData.items);
-    console.log("合計金額：", foodData.items.join(',') + " yen");
+    console.log("合計金額：", foodData.value + " yen");
     /*cart.push(items.slice());
     items = [];
     cart_value.push(total);
