@@ -1,0 +1,54 @@
+[
+    {
+      "name": "Pork Okonomiyaki",
+      "price": 900
+    },
+    {
+      "name": "Beef Okonomiyaki",
+      "price": 900
+    },
+    {
+      "name": "Beef Tendon Okonomiyaki",
+      "price": 900
+    },
+    {
+      "name": "Scallops Okonomiyaki",
+      "price": 900
+    },
+    {
+      "name": "Bacon Okonomiyaki",
+      "price": 900
+    },
+    {
+      "name": "Shrimp Okonomiyaki",
+      "price": 800
+    },
+    {
+      "name": "Octopus Okonomiyaki",
+      "price": 800
+    },
+    {
+      "name": "Squid Okonomiyaki",
+      "price": 800
+    },
+    {
+      "name": "Red kidney beans Okonomiyaki",
+      "price": 800
+    },
+    {
+      "name": "Tempura Okonomiyaki",
+      "price": 800
+    },
+    {
+      "name": "Katsu Okonomiyaki",
+      "price": 800
+    },
+    {
+      "name": "Modern-Style Okonomiyaki",
+      "price": 800
+    },
+    {
+      "name": "Mochi Okonomiyaki",
+      "price": 900
+    }
+  ]

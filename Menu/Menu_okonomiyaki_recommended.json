@@ -1,0 +1,63 @@
+
+[
+  {
+    "name": "Hakuba Special Okonomiyaki",
+    "price": 1800,
+    "image": "../picture/SpecialOkonomiyaki.png",
+    "ingredients": ["Beef", "Pork", "Shrimp", "Squid", "Octopus", "Big shrimp", "Asparagus", "Mushroom", "2 Eggs"]
+  },
+  {
+    "name": "Special Okonomiyaki",
+    "price": 1400,
+    "image": "../picture/SpecialOkonomiyaki.png",
+    "ingredients": ["Beef", "Pork", "Shrimp", "Squid", "Egg"]
+  },
+  {
+    "name": "Seafood Special Okonomiyaki",
+    "price": 1400,
+    "image": "../picture/SpecialOkonomiyaki.png",
+    "ingredients": ["Shrimp", "Squid", "Octopus", "Big shrimp", "Scallop", "Egg"]
+  },
+  {
+    "name": "Narutokintoki and Red kidney beans Okonomiyaki",
+    "price": 1100,
+    "image": "../picture/SpecialOkonomiyaki.png",
+    "ingredients": ["Narutokintoki sweet potato", "Pork", "Egg"]
+  },
+  {
+    "name": "3-kinds-Cheese and Fish-Katsu Okonomiyaki",
+    "price": 1100,
+    "image": "../picture/SpecialOkonomiyaki.png",
+    "ingredients": ["Cream cheese", "Mozzarella cheese", "Processed cheese", "Fish-Katsu", "Shrimp", "Squid", "Egg"]
+  },
+  {
+    "name": "Mozzarella cheese and Tofu Okonomiyaki",
+    "price": 1100,
+    "image": "../picture/SpecialOkonomiyaki.png",
+    "ingredients": ["Mozzarella cheese", "Tofu", "Shrimp", "Squid", "Tomato", "Egg"]
+  },
+  {
+    "name": "Beef and Lotus root Okonomiyaki",
+    "price": 1050,
+    "image": "../picture/SpecialOkonomiyaki.png",
+    "ingredients": ["Beef", "Sliced and Grated Lotus Root", "Egg"]
+  },
+  {
+    "name": "Mentaiko and Mayonnaise Okonomiyaki",
+    "price": 1050,
+    "image": "../picture/SpecialOkonomiyaki.png",
+    "ingredients": ["Shrimp", "Squid", "Mentaiko", "Mentaiko Mayo", "Eggs"]
+  },
+  {
+    "name": "Pizza-Style Okonomiyaki",
+    "price": 1050,
+    "image": "../picture/SpecialOkonomiyaki.png",
+    "ingredients": ["Cheese", "Shrimp", "Squid", "Bacon", "Egg"]
+  },
+  {
+    "name": "Akashiyaki-Style Okonomiyaki",
+    "price": 1050,
+    "image": "../picture/SpecialOkonomiyaki.png",
+    "ingredients": ["Octopus", "shrimp", "2 Egg"]
+  }
+]

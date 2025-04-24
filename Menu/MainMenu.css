@@ -1,0 +1,80 @@
+#ReccMenu{
+    width: 95vw;
+    min-height: 100vh;
+    height: auto;
+    background-color: white;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem; 
+}
+
+
+#OsuTitle{
+    
+    width: 80vw;
+    background-image: url(../picture/titleOkonomi.jpg);
+    background-size: cover; 
+    background-position: 0% 50%;
+    text-align: center;
+    height: 100px;
+    color: white;
+    margin: 10px auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-shadow: 
+        1px 1px 2px rgba(0, 0, 0, 0.6), /* 黒の縁取り（右下） */
+        -1px -1px 2px rgba(0, 0, 0, 0.6), /* 黒の縁取り（左上） */
+        1px -1px 2px rgba(0, 0, 0, 0.6), /* 黒の縁取り（右上） */
+        -1px 1px 2px rgba(0, 0, 0, 0.6); /* 黒の縁取り（左下） */
+}
+
+.ItemImageSet{
+    display: flex;
+    justify-content: center;
+}
+
+.ReccItem{
+    width: 40%;
+    min-height: 150px;
+    text-align: center;
+    padding: 10px 0;
+    margin: auto 10px;
+    border-bottom: 2px dotted gold;
+    word-break: keep-all;
+}
+
+.ItemName{
+    font-size: 30px;
+}
+
+.ItemImage{
+    margin: 10px;
+    width: 40%;
+    height: 200px;
+}
+
+.ItemImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+    #OsuTitle{
+        height: 80px;
+    }
+    .ItemName{
+        font-size: 25px;
+    }
+
+    .ItemImage{
+        height: 150px;
+    }
+}
