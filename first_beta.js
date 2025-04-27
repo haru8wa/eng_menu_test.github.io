@@ -52,6 +52,10 @@ function removeItem(itemName,val)
 }
 
 function addCart(){
+    if(OkoBool)
+        items.push("OKONOMIYAKI");
+    else
+        items.push("YAKISOBA");
     let foodData = {
         items: items.slice(),
         value: total
