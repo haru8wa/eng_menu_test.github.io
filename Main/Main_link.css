@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    height: auto;
+}
+
+.WhiteSheet{
+    background-color: white;
+    width: 95vw;
+    margin-top: 15px;
+    height: 100vh;
+    overflow:auto;
+}
+
+#LinkContainer{
+    display: flex;
+    flex-wrap: wrap;         /* 折り返し可能に */
+    justify-content: center; /* 中央寄せ */
+    gap: 20px; 
+}
+
+.Link{
+    width: 45%;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 8px;
+    
+}
+
+.LinkDesign{
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    
+}
+
+.Link_img{
+    display: block;
+    width: 100%;
+    top: 0px;
+}
+
+#OsuTitle{
+    font-size: 30px;
+}
