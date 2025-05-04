@@ -1,0 +1,22 @@
+.WhiteSheet{
+    padding: 10px;
+}
+
+#title{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+#method{
+    margin: 10px;
+}
+
+#method_img_small{
+    width: 20vw;
+}
+
+#method_img{
+    width: 30vw;
+
+}
