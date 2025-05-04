@@ -1,0 +1,51 @@
+[
+    {
+      "name": "Special Yakisoba",
+      "price": 1400,
+      "image": "../picture/Normal_soba.png",
+      "ingredients": ["Beef", "Pork", "Shrimp", "Squid", "Mushroom"]
+    },
+    {
+      "name": "Seafood Special Yakisoba",
+      "price": 1400,
+      "image": "../picture/Normal_soba.png",
+      "ingredients": ["Shrimp", "Squid", "Octopus", "Big shrimp", "Scallop"]
+    },
+    {
+      "name": "Omu-soba (Yakisoba wrapped in an omelet)",
+      "price": 1050,
+      "image": "../picture/Normal_soba.png",
+      "ingredients": ["Beef", "Shrimp", "Eggs"]
+    },
+    {
+      "name": "Salt-flavored Yakisoba",
+      "price": 1050,
+      "image": "../picture/Normal_soba.png",
+      "ingredients": ["Pork", "Shrimp", "Squid", "onsen egg"]
+    },
+    {
+      "name": "Normal Yakisoba",
+      "price": 850,
+      "image": "../picture/Normal_soba.png",
+      "ingredients": ["Pork", "Shrimp", "Squid"]
+    },
+    {
+      "name": "1000yen Yakisoba",
+      "price": 1000,
+      "image": "../picture/Normal_soba.png",
+      "variations": ["「Pork and Kimuchi Yakisoba」", "<br>「Beef and Squid Yakisoba」"]
+    },
+    {
+      "name": "870yen Yakisoba",
+      "price": 870,
+      "image": "../picture/Normal_soba.png",
+      "variations": ["「Pork Yakisoba」", "<br>「Beef Yakisoba」"]
+    },
+    {
+      "name": "850yen Yakisoba",
+      "price": 850,
+      "image": "../picture/Normal_soba.png",
+      "variations": ["「Squid Yakisoba」", "<br>「Shrimp Yakisoba」"]
+    }
+  ]
+  

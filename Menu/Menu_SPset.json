@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Special Set menu for two",
+    "price": 3300,
+    "image": "../picture/Set.jpg",
+    "items": [
+      "Some Teppanyaki",
+      "<br>Okonomiyaki<br>(Special Okonomiyaki or Seafood Special Okonomiyaki)",
+      "<br>Yakisoba<br>([Beef and Squid Yakisoba] or [Pork and Kimuchi Yakisoba])",
+      "<br>Sherbet"
+    ]
+  },
+  {
+    "name": "Special Set menu for three or more",
+    "price": 1900,
+    "note": "per a person",
+    "image": "../picture/Set.jpg",
+    "items": [
+      "Grilled squid tentacles with salt",
+      "<br>Grilled Awaodori with salt",
+      "<br>Steamed Pork and Bean sprouts",
+      "<br>Some Teppanyaki",
+      "<br>Yakisoba",
+      "<br>Okonomiyaki",
+      "<br>Sherbet"
+    ]
+  }
+]
+
+  
+  
